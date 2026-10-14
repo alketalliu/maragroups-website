@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brightline Services — Small Business, Done Right</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#">Brightline</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Reliable service for busy businesses</h1>
+      <p>One team for cleaning, maintenance, and everything in between — booked in minutes.</p>
+      <a class="btn" href="#contact">Get a quote</a>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <div class="grid">
+        <article class="card"><h3>Commercial Cleaning</h3><p>Offices, retail, and common areas — on your schedule.</p></article>
+        <article class="card"><h3>Deep Cleans</h3><p>Move-in, move-out, and post-renovation detail work.</p></article>
+        <article class="card"><h3>Recurring Plans</h3><p>Weekly or monthly visits at a locked-in rate.</p></article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>A local crew with a simple promise: show up on time, do the job right, and communicate clearly. Every visit is checklist-driven and photo-verified.</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <form id="quote-form" novalidate>
+        <label>Name <input type="text" name="name" required /></label>
+        <label>Email <input type="email" name="email" required /></label>
+        <label>Message <textarea name="message" rows="4" required></textarea></label>
+        <button class="btn" type="submit">Send</button>
+        <p class="form-note" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Brightline Services — demo layout</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
